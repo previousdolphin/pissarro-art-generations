@@ -102,6 +102,12 @@ img{ max-width: 100%; display: block; }
   border-bottom-color: var(--accent-2);
 }
 
+.topbar__nav a[aria-current="page"]{
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 500;
+}
+
 /* ===========================================================
    HERO
    =========================================================== */
@@ -165,12 +171,27 @@ img{ max-width: 100%; display: block; }
   font-weight: 600;
 }
 
+.section-head h1.section-head__title{
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  font-weight: 700;
+  color: var(--accent);
+}
+
 .section-head__note{
   margin-top: 0.75rem;
   color: var(--ink);
   opacity: 0.75;
   max-width: 52ch;
   font-size: 1.02rem;
+}
+
+.section-head__eyebrow{
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.8rem;
+  color: var(--accent-2);
+  margin: 0 0 1rem;
+  font-weight: 500;
 }
 
 /* ===========================================================
@@ -236,7 +257,39 @@ img{ max-width: 100%; display: block; }
   color: var(--ink);
   max-width: 48ch;
   font-size: 0.98rem;
+  margin: 0 0 0.6rem;
+}
+
+.entry__note{
+  color: var(--ink);
+  opacity: 0.7;
+  max-width: 48ch;
+  font-size: 0.9rem;
+  font-style: italic;
   margin: 0;
+}
+
+/* Teaser link-out beneath a partial grid */
+.library__more{
+  margin-top: clamp(2rem, 4vw, 3rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.library__more-link{
+  font-family: var(--font-head);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule-strong);
+  padding-bottom: 3px;
+}
+
+.library__more-link:hover,
+.library__more-link:focus-visible{
+  color: var(--sky);
+  border-bottom-color: var(--sky);
 }
 
 /* ===========================================================
