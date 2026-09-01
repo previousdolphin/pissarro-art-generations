@@ -1,0 +1,1 @@
+/* Motion level: static — no JavaScript behavior required. */
