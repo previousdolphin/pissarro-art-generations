@@ -4,16 +4,16 @@
    =========================================================== */
 
 :root{
-  /* Palette (from brief) */
-  --bg:        #f0eff6; /* dominant paper background */
-  --accent:    #3021d8; /* primary accent — deep indigo */
-  --accent-2:  #1f70c8; /* supporting — mid blue */
-  --ink:       #373648; /* body / heading ink — slate charcoal */
-  --sky:       #00a3d7; /* supporting — bright cyan-blue */
+  /* Palette (red recolor) */
+  --bg:        #faf7f2; /* dominant paper background — warm cream */
+  --accent:    #a41e1e; /* primary accent — deep red-burgundy */
+  --accent-2:  #c84242; /* supporting — bright scarlet-red */
+  --ink:       #3a2f2a; /* body / heading ink — warm charcoal */
+  --sky:       #e85d5d; /* supporting — rose-red */
 
   --bg-raised: #ffffff;
-  --rule:      rgba(55, 54, 72, 0.18);
-  --rule-strong: rgba(48, 33, 216, 0.35);
+  --rule:      rgba(58, 47, 42, 0.15);
+  --rule-strong: rgba(164, 30, 30, 0.35);
 
   --font-head: "Bodoni Moda", "Playfair Display", Georgia, "Times New Roman", serif;
   --font-body: "Jost", "Century Gothic", "Trebuchet MS", Helvetica, Arial, sans-serif;
@@ -353,7 +353,7 @@ img{ max-width: 100%; display: block; }
 .field textarea:focus{
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(48, 33, 216, 0.12);
+  box-shadow: 0 0 0 3px rgba(164, 30, 30, 0.12);
 }
 
 .contact__submit{
